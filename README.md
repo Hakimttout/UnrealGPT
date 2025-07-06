@@ -79,6 +79,4 @@ Because the .umap filename is the same each run, you can simply reopen the map (
 
 DEMO_PROMPT="Give me a cosy loft with a skylight and put a rocket-shaped lamp on the bedside table."
 
-```markdown
 ![GeneratedScene](docs/demoUE.gif)
-```
