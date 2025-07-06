@@ -1,0 +1,25 @@
+cat > .gitignore <<'EOF'
+# venv & pycache
+.venv/
+__pycache__/
+
+# Unreal intermediate & binaries
+Saved/
+Intermediate/
+DerivedDataCache/
+*.log
+*.umap
+*.png
+*.bmp
+*.exe
+*.dll
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+EOF

@@ -1,0 +1,108 @@
+{
+  "map": "/Game/Maps/GeneratedScene",
+  "rooms": [
+    {
+      "name": "loft",
+      "id": "loft",
+      "size": [
+        600,
+        800,
+        350
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "map": "/Game/BlockOutBuilder/Generated/BlockOutScene",
+      "doorways": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "skylight",
+      "id": "skylight_1",
+      "type": "skylight",
+      "parent": "loft",
+      "position": [
+        300,
+        400,
+        175
+      ],
+      "mesh_type": "plane",
+      "material_type": "glass",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 3000.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "bedside_table",
+      "id": "bedside_table_1",
+      "type": "furniture",
+      "parent": "loft",
+      "position": [
+        100,
+        200,
+        37.5
+      ],
+      "mesh_type": "cube",
+      "material_type": "wood",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "rocket_lamp",
+      "id": "rocket_lamp_1",
+      "type": "rocket_lamp",
+      "parent": "bedside_table_1",
+      "position": [
+        0,
+        0,
+        50
+      ],
+      "material_type": "metal",
+      "intensity": 3000.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}
